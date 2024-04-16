@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex poster"] 1713188231 "poster.aux" "poster.bbl" "poster" 1713188424
+["bibtex poster"] 1713254388 "poster.aux" "poster.bbl" "poster" 1713254389
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "poster.aux" 1713188423 799 9c4f088633d9164da8812d5616a82937 "pdflatex"
-  "poster.bib" 1713175694 994 b5180cf064bf3dcdf81014a7132490b2 ""
+  "poster.aux" 1713254389 866 347b3a1a25cc66076ce471c806bba859 "pdflatex"
+  "poster.bib" 1713253015 1998 65c9f720ef0121eb7adf3fdb08d6da84 ""
   (generated)
-  "poster.blg"
   "poster.bbl"
-["pdflatex"] 1713188423 "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf" "poster" 1713188424
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux" 1713188423 799 9c4f088633d9164da8812d5616a82937 ""
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" 1713188421 7449 9856b889c391754f9e9e4659ff3ba4a4 ""
+  "poster.blg"
+["pdflatex"] 1713254388 "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf" "poster" 1713254389
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux" 1713254389 866 347b3a1a25cc66076ce471c806bba859 ""
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" 1713254387 7364 e944ff9157e49f7a78e65a9974d9b1b8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -170,14 +170,14 @@
   "figures/ft-pipeline.pdf" 1713187619 528602 639c4ce2a156f7b49b7d709130b05fb8 ""
   "figures/general-idea.pdf" 1713187667 212752 5cae04823c771d8b70d4b3dcd261f978 ""
   "figures/phar.pdf" 1713175694 24803 24262db453831b078b721e7c0a07286d ""
-  "poster.aux" 1713188423 799 9c4f088633d9164da8812d5616a82937 "pdflatex"
-  "poster.bbl" 1713188231 305 962f7ac1baa8f74744b3c5ef3f53e636 "bibtex poster"
-  "poster.out" 1713188423 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "poster.tex" 1713188421 7449 9856b889c391754f9e9e4659ff3ba4a4 ""
+  "poster.aux" 1713254389 866 347b3a1a25cc66076ce471c806bba859 "pdflatex"
+  "poster.bbl" 1713254388 587 5a3df2130e34c31aed2a72d226f74ee6 "bibtex poster"
+  "poster.out" 1713254389 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "poster.tex" 1713254387 7364 e944ff9157e49f7a78e65a9974d9b1b8 ""
   (generated)
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.log"
+  "poster.log"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf"
   "poster.pdf"
   "poster.out"
   "poster.aux"
-  "poster.log"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.log"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf"

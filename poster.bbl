@@ -1,9 +1,16 @@
 \begin{thebibliography}{1}
 
-\bibitem{keiser2007relating}
-Michael~J Keiser, Bryan~L Roth, Blaine~N Armbruster, Paul Ernsberger, John~J
-  Irwin, and Brian~K Shoichet.
-\newblock Relating protein pharmacology by ligand chemistry.
-\newblock {\em Nat. Biotechnol.}, 25(2):197--206, 2007.
+\bibitem{convology}
+Mauro Dragoni, Giuseppe Rizzo, and Matteo~A. Senese.
+\newblock Chapter 2 - convology: an ontology for conversational agents in
+  digital health.
+\newblock In Sarika Jain, Vishal Jain, and Valentina~Emilia Balas, editors,
+  {\em Web Semantics}, pages 7--21. Academic Press, 2021.
+
+\bibitem{varshney-first:2023}
+Deeksha Varshney, Asif Ekbal, and Erik Cambria.
+\newblock Emotion-and-knowledge grounded response generation in an open-domain
+  dialogue setting.
+\newblock {\em Knowledge-Based Systems}, 284:111173, 2024.
 
 \end{thebibliography}
