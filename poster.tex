@@ -79,7 +79,15 @@ Recent advances in large language models (LLMs) have improved conversational age
 
 }
 
-\headerbox{2. Methodology}{name=model,column=0,below=introduction,span=1}{
+\headerbox{Want to know more?}{name=resources,column=0,below=introduction,span=1}{
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{qrcode.jpg}\\
+    My website, gh repo or whatever
+\end{center}
+}
+
+\headerbox{2. Methodology}{name=method,column=0,below=resources,span=1}{
 
 \paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
 \paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, huggingface transformers and parameter-efficient fine-tuning libraries, LoRA adapters.\\
@@ -93,7 +101,7 @@ Recent advances in large language models (LLMs) have improved conversational age
 %\vspace{-2pt}
 }
 
-\headerbox{3. Objectives}{name=screen,span=2,column=1,below=introduction}{ % To reduce this block to 1 column width, remove 'span=2'
+\headerbox{3. Objectives}{name=objectives,span=2,column=1,below=introduction}{ % To reduce this block to 1 column width, remove 'span=2'
 
 \begin{wrapfigure}{l}{0.25\textwidth}
     \vspace{-15pt}
@@ -113,7 +121,7 @@ Develop \textbf{knowledge-enhanced conversational models} that exploit Large Lan
 }
 
 
-\headerbox{4. OntoGPT: LLM Fine-Tuning Based on Ontology Validation}{name=sea,span=2,column=1,below=screen}{ % To reduce this block to 1 column width, remove 'span=2'
+\headerbox{4. OntoGPT: LLM Fine-Tuning Based on Ontology Validation}{name=ontogpt,span=2,column=1,below=objectives}{ % To reduce this block to 1 column width, remove 'span=2'
 We work on a LLM/Ontology hybridation setup where the ontology is supposed to help the LLM produce more accurate utterances in dialogue (being as compliant as possible towards the user requirements). For this, we provide a an end-to-end integration pipeline where the ontology information is assimilated at fine-tuning time.
 
 \begin{center}
@@ -122,7 +130,7 @@ We work on a LLM/Ontology hybridation setup where the ontology is supposed to he
 }
 
 
-\headerbox{5. Related Work}{name=conclusion,column=1,below=sea,span=2,above=bottom}{
+\headerbox{5. Related Work}{name=rwork,column=1,below=ontogpt,span=2}{
 \begin{itemize}
     \item Many approaches use LLMs to improve KGs [Mateiu et al., 2023, He et al., 2023, Giglou et al., 2023] 
     \item “KGs to improve LLMs” approaches are less common but gain interest
@@ -131,20 +139,12 @@ We work on a LLM/Ontology hybridation setup where the ontology is supposed to he
         \item Integration of knowledge information using GANs [Varshney et al., 2023b]
         \item KLLM @ ACL 2024 (1st workshop on Knowledge Graphs and Large Language Models)
     \end{itemize}
-\end{itemize}
-
-Some interesting papers:
-\begin{itemize}
-    \item Paper 1
-    \item Paper 2
-    \item Paper 3
-\end{itemize}
-% It can be also used in other [procedures], such as database screening or drug repositioning.
-% DeCAF is written in Python and freely available at \textbf{\color{loriablue}http://bitbucket.org/marta-sd/decaf}. 
+\vspace*{2em}
+\end{itemize} 
 }
 
 
-\headerbox{6. Selected references}{name=references,column=0,span=1,below=model,above=bottom}{
+\headerbox{6. Selected references}{name=references,column=0,span=1,below=method,above=bottom}{
 
 %\small % Reduce the font size in this block
 \renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
@@ -152,6 +152,10 @@ Some interesting papers:
 
 \bibliographystyle{unsrt}
 \bibliography{poster} % Use sample.bib as the bibliography file
+}
+
+\headerbox{7. Perpectives}{name=perspectives, column=1, span=2, below=rwork, above=bottom}{
+We expect that the use of the ontology will also increase the interpretability of conversational agents, as decisions to use certain outputs over others will be associated with the ontological dimensions of the current conversation that have driven those choices, thus, moving from common fully black-box NLP models. This could also help these models be less harmful to both users and providers, along with controllable ethics in the way the conversation is analyzed.
 }
 
 \end{poster}
