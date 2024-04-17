@@ -42,8 +42,8 @@ headerborder=open, % Adds a border around the header of content boxes
 colspacing=1em, % Column spacing
 bgColorOne=white, % Background color for the gradient on the left side of the poster
 bgColorTwo=white, % Background color for the gradient on the right side of the poster
-borderColor=loriablue, % Border color
-headerColorOne=loriadark, % Background color for the header in the content boxes (left side)
+borderColor=loriadark, % Border color
+headerColorOne=loriablue, % Background color for the header in the content boxes (left side)
 headerColorTwo=loriadark, % Background color for the header in the content boxes (right side)
 headerFontColor=white, % Text color for the header text in the content boxes
 boxColorOne=white, % Background color of the content boxes
@@ -71,7 +71,7 @@ Barbara Gendron, under the supervision of Mathieu d'Aquin and Gaël Guibon
 \faEnvelopeO \enspace barbara.gendron@loria.fr | \faDesktop \enspace \url{b-gendron.github.io} | \faGithub \enspace b-gendron | \faLinkedin \enspace barbara.gendron
 }}
 {
-    \makebox[110pt][l]{\includegraphics[width=0.15\textwidth]{all-logos.pdf}} 
+    \makebox[200pt][l]{\includegraphics[width=0.28\textwidth]{all-logos-photo.pdf}} 
 }%
 
 \headerbox{1. Context}{name=introduction,column=0,row=0, span=3}{
@@ -88,7 +88,7 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 \end{center}
 }
 
-\headerbox{2. Methodology}{name=method,column=0,below=resources,span=1}{
+\headerbox{2. Methodology}{name=method,column=0,below=resources,above=bottom, span=1}{
 
 \paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
 \paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, huggingface transformers and parameter-efficient fine-tuning libraries, LoRA adapters.\\
@@ -131,29 +131,20 @@ We work on a LLM/Ontology hybridation setup where the ontology is supposed to he
 }
 
 
-\headerbox{5. Related Work}{name=rwork,column=1,below=ontogpt,span=2}{
-\begin{itemize}
-    \item Many approaches use LLMs to improve KGs [Mateiu et al., 2023, He et al., 2023, Giglou et al., 2023] 
-    \item “KGs to improve LLMs” approaches are less common but gain interest
-    \begin{itemize}
-        \item KG embeddings fed to BERT-like model [Gong et al., 2020]
-        \item Integration of knowledge information using GANs [Varshney et al., 2023b]
-        \item KLLM @ ACL 2024 (1st workshop on Knowledge Graphs and Large Language Models)
-    \end{itemize}
-\vspace*{2em}
-\end{itemize} 
+\headerbox{5. Current Stage of Research}{name=rwork,column=1,below=ontogpt,span=2}{
+This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective. This is the place where I explain what I have done so far and what I plan to do in a short-time perspective.
 }
 
 
-\headerbox{6. Selected references}{name=references,column=0,span=1,below=method,above=bottom}{
+% \headerbox{6. Selected references}{name=references,column=0,span=1,below=method,above=bottom}{
 
-%\small % Reduce the font size in this block
-\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
-%\nocite{*} % Insert publications even if they are not cited in the poster
+% %\small % Reduce the font size in this block
+% \renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
+% %\nocite{*} % Insert publications even if they are not cited in the poster
 
-\bibliographystyle{unsrt}
-\bibliography{poster} % Use sample.bib as the bibliography file
-}
+% \bibliographystyle{unsrt}
+% \bibliography{poster} % Use sample.bib as the bibliography file
+% }
 
 \headerbox{7. Perpectives}{name=perspectives, column=1, span=2, below=rwork, above=bottom}{
 We expect that the use of the ontology will also increase the interpretability of conversational agents, as decisions to use certain outputs over others will be associated with the ontological dimensions of the current conversation that have driven those choices, thus, moving from common fully black-box NLP models. This could also help these models be less harmful to both users and providers, along with controllable ethics in the way the conversation is analyzed.
