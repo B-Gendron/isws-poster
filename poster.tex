@@ -77,7 +77,9 @@ Barbara Gendron, under the supervision of Mathieu d'Aquin and Gaël Guibon
 
 \headerbox{1. Context}{name=introduction,column=0,row=0, span=3}{
 
-Recent advances in Large Language Models (LLMs) have improved conversational agents' realism and compliance towards human requirements and needs. However, \textbf{controlling conversation flow towards positive outcomes remains crucial}.This Ph.D. aims to \textcolor{loriapink}{\bf represent conversational knowledge using an ontology to enable language model control}. Ontologies allow to model the knowledge in a domain, defining concepts and characterizing relations between them. While often used for domain-specific knowledge, few have explored using ontologies to guide conversation flow. Convology is a recent example focusing on managing health conversations. We plan to extend Convology's conceptualization capacities to a more general setup, therefore adaptable to general-purpose user/agent conversations.
+Recent advances in Large Language Models (LLMs) have improved conversational agents' realism and compliance towards human requirements and needs. However, \textbf{controlling conversation flow towards positive outcomes remains crucial}. \\
+\\
+\noindent This Ph.D. aims to \textcolor{loriapink}{\bf represent conversational knowledge using an ontology to enable language model control}. Ontologies allow to model the knowledge in a domain, defining concepts and characterizing relations between them. While often used for domain-specific knowledge, few have explored using ontologies to guide conversation flow. Convology is a recent example focusing on managing health conversations. We plan to extend Convology's conceptualization capacities to a more general setup, therefore adaptable to general-purpose user/agent conversations.
 
 }
 
@@ -85,7 +87,7 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 
 \begin{center}
     \includegraphics[width=0.5\textwidth]{qrcode.jpg}\\
-    My website, gh repo or whatever
+    An example: OntoGPT for Readability Level Assessment (seminar slides)
 \end{center}
 }
 
@@ -93,9 +95,9 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 
 \paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
 \paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, huggingface transformers and parameter-efficient fine-tuning libraries, LoRA adapters.\\
-\paragraph*{Conceptualization.} Explain our ontology engineering process and how we select and create toy examples.\\
+\paragraph*{Conceptualization.} Iterative process to gradually complexify the ontology structure and the knowledge it can model. Will to add some linguistic and affective computing notions. Explain our ontology engineering process and how we select and create toy examples.\\
 \paragraph*{Control.} Explain how we plan to control the conversational dynamic inthe context of a dialogue user-agent.\\
-\paragraph*{Challenges.} It is not straightforward that what the ontology brings can be fully understood and learnt by an LLM (in our case, we consider for now only decoder-based language models). 
+\paragraph*{Challenges.} It is not straightforward that the knowledge the ontology brings can be accurately learnt and applied by a language model, whether it be decoder-only or encoder-decoder.
 
 %\vspace{-2pt}
 }

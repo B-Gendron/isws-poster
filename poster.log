@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  21 MAY 2024 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  21 MAY 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -680,49 +680,54 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 76.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 76.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+
+ []
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 <figures/qrcode.jpg, id=11, 2462.19875pt x 2462.19875pt>
 File: figures/qrcode.jpg Graphic file (type jpg)
 <use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 90.
+Package pdftex.def Info: figures/qrcode.jpg  used on input line 92.
 (pdftex.def)             Requested size: 103.9671pt x 103.9564pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 101--101
- []\T1/lmr/bx/n/10 Conceptualization. \T1/lmr/m/n/10 Ex-plain our on-tol-ogy
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+ []\T1/lmr/bx/n/10 Conceptualization. \T1/lmr/m/n/10 It-er-a-tive pro-cess to
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 101--101
-\T1/lmr/m/n/10 en-gi-neer-ing pro-cess and how we se-lect and
+Underfull \hbox (badness 1412) in paragraph at lines 103--103
+\T1/lmr/m/n/10 grad-u-ally com-plex-ify the on-tol-ogy struc-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 101--101
+Underfull \hbox (badness 1194) in paragraph at lines 103--103
  []\T1/lmr/bx/n/10 Control. \T1/lmr/m/n/10 Ex-plain how we plan to con-trol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
@@ -732,9 +737,9 @@ Missing character: There is no ; in font nullfont!
 <figures/onto_perspectives.pdf, id=12, 16336.15182pt x 7178.82pt>
 File: figures/onto_perspectives.pdf Graphic file (type pdf)
 <use figures/onto_perspectives.pdf>
-Package pdftex.def Info: figures/onto_perspectives.pdf  used on input line 120.
+Package pdftex.def Info: figures/onto_perspectives.pdf  used on input line 122.
 (pdftex.def)             Requested size: 217.9342pt x 95.73781pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 120.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 122.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -744,7 +749,7 @@ Missing character: There is no ; in font nullfont!
 <figures/ft-pipeline.pdf, id=13, 708.33983pt x 368.48154pt>
 File: figures/ft-pipeline.pdf Graphic file (type pdf)
 <use figures/ft-pipeline.pdf>
-Package pdftex.def Info: figures/ft-pipeline.pdf  used on input line 130.
+Package pdftex.def Info: figures/ft-pipeline.pdf  used on input line 132.
 (pdftex.def)             Requested size: 414.07365pt x 215.4062pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -752,7 +757,7 @@ Missing character: There is no ; in font nullfont!
 <figures/general-idea.pdf, id=14, 262.35493pt x 310.40987pt>
 File: figures/general-idea.pdf Graphic file (type pdf)
 <use figures/general-idea.pdf>
-Package pdftex.def Info: figures/general-idea.pdf  used on input line 159.
+Package pdftex.def Info: figures/general-idea.pdf  used on input line 161.
 (pdftex.def)             Requested size: 159.31485pt x 188.5019pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -760,25 +765,25 @@ Missing character: There is no ; in font nullfont!
  [2
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/all-logos-photo.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/qrcode.jpg> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/onto_perspectives.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/ft-pipeline.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/general-idea.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
  19475 strings out of 480608
  371664 string characters out of 5903630
- 636424 words of memory out of 5000000
+ 636698 words of memory out of 5000000
  34961 multiletter control sequences out of 15000+600000
  575617 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,64p,892b,1096s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,19n,64p,666b,1096s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf (1 page, 2104741 bytes).
+Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf (1 page, 2105278 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
