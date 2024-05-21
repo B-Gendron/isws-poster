@@ -91,13 +91,13 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 \end{center}
 }
 
-\headerbox{2. Methodology}{name=method,column=0,below=resources, span=1}{
+\headerbox{2. Methodology}{name=method,column=0,below=resources,span=1}{
 
-\paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
-\paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, huggingface transformers and parameter-efficient fine-tuning libraries, LoRA adapters.\\
-\paragraph*{Conceptualization.} Progressively incorporate and infer on linguistic features such as part-of-speech tags, affective computing such as emotions or dialog acts.\\
-\paragraph*{Experimental setup.} Toy example design process is a trial and error approach?\\
-\paragraph*{Control.} Explain how we plan to control the conversational dynamic inthe context of a dialogue user-agent.\\
+% \paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
+\paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, Huggingface transformers and parameter-efficient fine-tuning libraries, LoRA  and QLoRA adapters.\\
+\paragraph*{Ontology.} Progressively incorporate and infer on linguistic features such as part-of-speech tags, affective computing such as emotions or dialog acts.\\
+\paragraph*{Experimental Setup.} Toy example design process is a trial and error approach?\\
+\paragraph*{Control.} Decisions to use certain outputs rather that other will be directly associated to the ontological dimensions of the current conversation that have driven those choices, which makes the difference with black-box models. In the end, this could help to discourage the generation of harmful content, this bringing controllable ethics to human-machine conversations.\\
 \paragraph*{Challenges.} It is not straightforward that the knowledge the ontology brings can be accurately learnt and applied by a language model, whether it be decoder-only or encoder-decoder.
 
 %\vspace{-2pt}
@@ -135,8 +135,7 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 }
 
 
-\headerbox{5. Advances \& Perspectives}{name=rwork,column=0,below=ontogpt, above=bottom,span=3}{
-
+\headerbox{5. Advances \& Perspectives}{name=rwork,column=0, above=bottom,span=3}{
 \begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
     \begin{minipage}[t]{\linewidth}
         Advances in ontology building:
