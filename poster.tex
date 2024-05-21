@@ -125,11 +125,13 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 
 \headerbox{4. OntoGPT: LLM Fine-Tuning Based on Ontology Validation}{name=ontogpt,span=2,column=1,below=objectives}{ % To reduce this block to 1 column width, remove 'span=2'
 \vspace*{0.2em}
-An end-to-end integration pipeline where the ontology information is assimilated at fine-tuning time.
-
+\textbf{OntoGPT} fine-tunes LLMs using LoRA adapters. It aims at improving generation by learning a classification task guided by the ontology knowledge.
 \begin{center}
-    \includegraphics[width=0.95\linewidth]{ft-pipeline.pdf}
+    \includegraphics[width=0.95\linewidth]{ft-pipeline.pdf}\\
+    \vspace*{0.2em}
+    Figure 2: OntoGPT is an end-to-end integration pipeline where the ontology information is assimilated at fine-tuning time. This example focuses on readability level assessment task.
 \end{center}
+\vspace*{3pt}
 }
 
 
@@ -146,7 +148,7 @@ An end-to-end integration pipeline where the ontology information is assimilated
     &
     \begin{minipage}[c]{\linewidth}
         \begin{center}
-            \includegraphics[width=0.75\linewidth]{general-idea.pdf}
+            \includegraphics[width=0.55\linewidth]{general-idea.pdf}
         \end{center}
     \end{minipage}
     &
