@@ -69,7 +69,7 @@ Barbara Gendron, under the supervision of Mathieu d'Aquin and Gaël Guibon
 \vspace{0.1em}\\
 \small{Laboratoire Lorrain de Recherche en Informatique et ses Applications (LORIA), Université de Lorraine
 \vspace{0.2em}\\
-\faEnvelopeO \enspace barbara.gendron@loria.fr | \faDesktop \enspace \url{b-gendron.github.io} | \faGithub \enspace b-gendron | \faLinkedin \enspace barbara.gendron
+\faEnvelopeO \enspace barbara.gendron@loria.fr | \faDesktop \enspace \texttt{b-gendron.github.io} | \faGithub \enspace b-gendron | \faLinkedin \enspace barbara.gendron
 }}
 {
     \makebox[200pt][l]{\includegraphics[width=0.28\textwidth]{all-logos-photo.pdf}} 
@@ -93,7 +93,7 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 
 \headerbox{2. Methodology}{name=method,column=0,below=resources,span=1}{
 
-% \paragraph*{PhD approach.} Iterative process by progressive enrichment of the ontology to conceptualize more and more notions related to conversations.\\
+% TODO revoir l'ordre des paragraphes
 \paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, Huggingface transformers and parameter-efficient fine-tuning libraries, LoRA  and QLoRA adapters.\\
 \paragraph*{Ontology.} Progressively incorporate and infer on linguistic features such as part-of-speech tags, affective computing such as emotions or dialog acts.\\
 \paragraph*{Experimental Setup.} Toy example design process is a trial and error approach?\\
@@ -136,24 +136,28 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 
 
 \headerbox{5. Advances \& Perspectives}{name=rwork,column=0, above=bottom,span=3}{
-\begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
-    \begin{minipage}[t]{\linewidth}
-        Advances in ontology building:
+\begin{tabular}{p{0.35\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+    \begin{minipage}[l]{\linewidth}
+        \textbf{Ontology Engineering:}
         \begin{itemize}
-            \item Advance 1
-            \item Advance 2
+            \item Semantic Web basics (RDF, RDFS, OWL).
+            \item Learning ontology engineering tools and methodologies, particularly Protégé.
+            \item Hybridization of LLMs and ontologies in a fine-tuning pipeline.
+            \item Automatic creation and management of ontology individuals to fine-tune through ontology validation.
+
         \end{itemize}
     \end{minipage}
     &
     \begin{minipage}[c]{\linewidth}
         \begin{center}
-            \includegraphics[width=0.55\linewidth]{general-idea.pdf}
+            \includegraphics[width=\linewidth]{general-idea.pdf}
         \end{center}
     \end{minipage}
     &
-    \begin{minipage}[t]{\linewidth}
-        Key findings in LLMs:
+    \begin{minipage}[r]{\linewidth}
+        \textbf{Language models}:
         \begin{itemize}
+            \item Build my own baby language model
             \item Challenges to setup the fine-tuning procedure
             \item Computational time
         \end{itemize}
