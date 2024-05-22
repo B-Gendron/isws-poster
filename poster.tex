@@ -79,7 +79,7 @@ Barbara Gendron, under the supervision of Mathieu d'Aquin and Gaël Guibon
 
 Recent advances in Large Language Models (LLMs) have improved conversational agents' realism and compliance towards human requirements and needs. However, \textbf{controlling conversation flow towards positive outcomes remains crucial}. \\
 \\
-\noindent This Ph.D. aims to \textcolor{loriapink}{\bf represent conversational knowledge using an ontology to enable language model control}. Ontologies allow to model the knowledge in a domain, defining concepts and characterizing relations between them. While often used for domain-specific knowledge, few have explored using ontologies to guide conversation flow. Convology is a recent example focusing on managing health conversations. We plan to extend Convology's conceptualization capacities to a more general setup, therefore adaptable to general-purpose user/agent conversations.
+\noindent This Ph.D. aims to \textcolor{loriapink}{\bf represent conversational knowledge using an ontology to enable language model control}. Ontologies allow to model the knowledge in a domain, defining concepts and characterizing relations between them. While often used for domain-specific knowledge, few have explored using ontologies to guide conversation flow. Convology$^{1}$ is a recent example focusing on managing health conversations. We plan to extend Convology's conceptualization capacities to a more general setup, therefore adaptable to general-purpose user/agent conversations.
 
 }
 
@@ -94,14 +94,14 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 \headerbox{2. Methodology}{name=method,column=0,below=resources,span=1}{
 
 % TODO revoir l'ordre des paragraphes
-\paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, Huggingface transformers and parameter-efficient fine-tuning libraries, LoRA  and QLoRA adapters.\\
+\paragraph*{Tools.} Protégé, Pellet, owlready2, PyTorch, Huggingface transformers and parameter-efficient fine-tuning libraries, LoRA adapters.\\
 \paragraph*{Ontology.} Progressively incorporate and infer on linguistic features such as part-of-speech tags, affective computing such as emotions or dialog acts.\\
-\paragraph*{Experimental Setup.} Toy example design process is a trial and error approach?\\
+\paragraph*{Experimental Setup.} Toy example design process is aligned with LLM abilities. So far, we considered readability level and sentence length.\\
 \paragraph*{Challenges.} It is not straightforward that the knowledge the ontology brings can be accurately learnt and applied by a language model, whether it be decoder-only or encoder-decoder.\\
 \paragraph*{Conversation Control.} Decisions to use certain outputs rather that other will be directly associated to the ontological dimensions of the current conversation that have driven those choices, which makes the difference with black-box models. In the end, this could help to discourage the generation of harmful content, this bringing controllable ethics to human-machine conversations.\\
 
-%\vspace{-2pt}
 }
+
 
 \headerbox{3. Motivation \& Objectives}{name=objectives,span=2,column=1,below=introduction}{
 The objective of this thesis is to develop \textbf{knowledge-enhanced conversational models} that exploit Large Language Models (LLMs) and Ontologies. This consists in improving state-of-the-art LLMs by providing \textbf{structured knowledge} to open-domain conversational agents.
@@ -134,7 +134,6 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 \vspace*{3pt}
 }
 
-
 \headerbox{5. Advances \& Perspectives}{name=rwork,column=0, above=bottom,span=3}{
 \begin{tabular}{p{0.36\textwidth} p{0.2\textwidth} p{0.38\textwidth}}
     \begin{minipage}[l]{\linewidth}
@@ -163,6 +162,13 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 \end{tabular}
 
 }
+
+\headerbox{}%
+{name=foottext,column=0,span=1,above=rwork,below=method,textborder=none,headerborder=none,boxheaderheight=0pt,headershape=rectangle}{
+    \vspace*{-8pt}
+    {$^1$ Dragoni et al. \textsl{Web Semantics}. 2021.}
+}
+
 
 
 \end{poster}
