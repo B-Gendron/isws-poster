@@ -97,8 +97,8 @@ Recent advances in Large Language Models (LLMs) have improved conversational age
 \paragraph*{Tools.} Protégé, HermiT and Pellet reasoners, owlready2, rdflib, PyTorch, Huggingface transformers and parameter-efficient fine-tuning libraries, LoRA  and QLoRA adapters.\\
 \paragraph*{Ontology.} Progressively incorporate and infer on linguistic features such as part-of-speech tags, affective computing such as emotions or dialog acts.\\
 \paragraph*{Experimental Setup.} Toy example design process is a trial and error approach?\\
-\paragraph*{Control.} Decisions to use certain outputs rather that other will be directly associated to the ontological dimensions of the current conversation that have driven those choices, which makes the difference with black-box models. In the end, this could help to discourage the generation of harmful content, this bringing controllable ethics to human-machine conversations.\\
-\paragraph*{Challenges.} It is not straightforward that the knowledge the ontology brings can be accurately learnt and applied by a language model, whether it be decoder-only or encoder-decoder.
+\paragraph*{Challenges.} It is not straightforward that the knowledge the ontology brings can be accurately learnt and applied by a language model, whether it be decoder-only or encoder-decoder.\\
+\paragraph*{Conversation Control.} Decisions to use certain outputs rather that other will be directly associated to the ontological dimensions of the current conversation that have driven those choices, which makes the difference with black-box models. In the end, this could help to discourage the generation of harmful content, this bringing controllable ethics to human-machine conversations.\\
 
 %\vspace{-2pt}
 }
@@ -109,7 +109,7 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 \begin{wrapfigure}{r}{0.55\textwidth}
     % \vspace{-15pt}
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{onto_perspectives.pdf}
+        \includegraphics[width=0.5\textwidth]{poster_isws_notSoBig.pdf}
         \caption{\centering The benefits of ontology-LLM hybridation systems for conversation modeling}
     \end{center}
 \end{wrapfigure}
@@ -136,12 +136,11 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
 
 
 \headerbox{5. Advances \& Perspectives}{name=rwork,column=0, above=bottom,span=3}{
-\begin{tabular}{p{0.35\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\begin{tabular}{p{0.36\textwidth} p{0.2\textwidth} p{0.38\textwidth}}
     \begin{minipage}[l]{\linewidth}
         \textbf{Ontology Engineering:}
         \begin{itemize}
-            \item Semantic Web basics (RDF, RDFS, OWL).
-            \item Learning ontology engineering tools and methodologies, particularly Protégé.
+            \item Semantic Web basics (RDF, RDFS, OWL), ontology engineering methodologies and tools (Protégé).
             \item Hybridization of LLMs and ontologies in a fine-tuning pipeline.
             \item Automatic creation and management of ontology individuals to fine-tune through ontology validation.
 
@@ -150,16 +149,15 @@ The objective of this thesis is to develop \textbf{knowledge-enhanced conversati
     &
     \begin{minipage}[c]{\linewidth}
         \begin{center}
-            \includegraphics[width=\linewidth]{general-idea.pdf}
+            \includegraphics[width=0.85\linewidth]{general-idea.pdf}
         \end{center}
     \end{minipage}
     &
     \begin{minipage}[r]{\linewidth}
         \textbf{Language models}:
         \begin{itemize}
-            \item Build my own baby language model
-            \item Challenges to setup the fine-tuning procedure
-            \item Computational time
+            \item Build a lightweight decoder-only language model from scratch to testbench pre-training and fine-tuning scenarios.
+            \item Develop generation-based fine-tuning that relies on a classification task evaluated by an ontology. Involves challenges in stability, knowledge transfer and computational efficiency.
         \end{itemize}
     \end{minipage}
 \end{tabular}
