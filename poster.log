@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  22 MAY 2024 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  23 MAY 2024 09:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -637,11 +637,11 @@ LaTeX Info: Redefining \nameref on input line 33.
 \@outlinefile=\write4
 \openout4 = `poster.out'.
 
-<figures/all-logos-photo.pdf, id=9, 853.74121pt x 459.99481pt>
-File: figures/all-logos-photo.pdf Graphic file (type pdf)
-<use figures/all-logos-photo.pdf>
-Package pdftex.def Info: figures/all-logos-photo.pdf  used on input line 76.
-(pdftex.def)             Requested size: 188.6667pt x 101.64838pt.
+<figures/all-logos-cnrs.pdf, id=9, 963.6pt x 542.025pt>
+File: figures/all-logos-cnrs.pdf Graphic file (type pdf)
+<use figures/all-logos-cnrs.pdf>
+Package pdftex.def Info: figures/all-logos-cnrs.pdf  used on input line 76.
+(pdftex.def)             Requested size: 188.6667pt x 106.12038pt.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 76.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -740,11 +740,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--103
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/poster_isws_notSoBig.pdf, id=12, 15621.40144pt x 6758.20856pt>
-File: figures/poster_isws_notSoBig.pdf Graphic file (type pdf)
-<use figures/poster_isws_notSoBig.pdf>
-Package pdftex.def Info: figures/poster_isws_notSoBig.pdf  used on input line 123.
-(pdftex.def)             Requested size: 217.9342pt x 94.25334pt.
+<figures/poster_isws_nsb_corrected.pdf, id=12, 16207.51106pt x 7012.11713pt>
+File: figures/poster_isws_nsb_corrected.pdf Graphic file (type pdf)
+<use figures/poster_isws_nsb_corrected.pdf>
+Package pdftex.def Info: figures/poster_isws_nsb_corrected.pdf  used on input line 123.
+(pdftex.def)             Requested size: 217.9342pt x 94.26361pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 123.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -817,7 +817,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [2
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/all-logos-photo.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/OntoGPT_for_RLA.png> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/poster_isws_notSoBig.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/ft-pipeline.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/general-idea.pdf>]
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/all-logos-cnrs.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/OntoGPT_for_RLA.png> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/poster_isws_nsb_corrected.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/ft-pipeline.pdf> </Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/figures/general-idea.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux)
@@ -829,17 +829,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
  19551 strings out of 480608
- 373762 string characters out of 5903630
- 644269 words of memory out of 5000000
+ 373786 string characters out of 5903630
+ 644242 words of memory out of 5000000
  35042 multiletter control sequences out of 15000+600000
  571445 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,19n,64p,672b,1052s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf (1 page, 1803450 bytes).
+Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf (1 page, 1828388 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 162 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  8 named destinations out of 1000 (max. 500000)
  44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
