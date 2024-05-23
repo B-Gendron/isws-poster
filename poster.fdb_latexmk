@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1716451106 "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf" "poster" 1716451107
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux" 1716451107 900 2f3ee4d6e85361d28defab430bebac4e ""
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" 1716451105 8524 ce1328b7806e9f01d20fd48cf1a10dd6 ""
+["pdflatex"] 1716451840 "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf" "poster" 1716451841
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.aux" 1716451841 900 2f3ee4d6e85361d28defab430bebac4e ""
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.tex" 1716451839 8593 345aae503c32afe72f6a5cd2928ef790 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -180,13 +180,13 @@
   "figures/ft-pipeline.pdf" 1713187619 528602 639c4ce2a156f7b49b7d709130b05fb8 ""
   "figures/general-idea.pdf" 1713187667 212752 5cae04823c771d8b70d4b3dcd261f978 ""
   "figures/poster_isws_nsb_corrected.pdf" 1716449491 182695 1fb1ed7e1babc6ba3ef02df7f702a9a0 ""
-  "poster.aux" 1716451107 900 2f3ee4d6e85361d28defab430bebac4e "pdflatex"
-  "poster.out" 1716451106 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "poster.tex" 1716451105 8524 ce1328b7806e9f01d20fd48cf1a10dd6 ""
+  "poster.aux" 1716451841 900 2f3ee4d6e85361d28defab430bebac4e "pdflatex"
+  "poster.out" 1716451841 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "poster.tex" 1716451839 8593 345aae503c32afe72f6a5cd2928ef790 ""
   (generated)
   "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.log"
-  "poster.pdf"
-  "poster.out"
   "/Users/barbaragendron/Desktop/Thèse/Presentations/isws-poster/poster.pdf"
   "poster.log"
   "poster.aux"
+  "poster.pdf"
+  "poster.out"
